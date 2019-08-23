@@ -4,14 +4,13 @@
 // similar to cubes but do not have even sides. Follow the steps in order to accomplish this challenge.
 
 /* == Step 1: Base Constructor ==
-  Create a constructor function named CuboidMaker that accepts properties for length, width, and height
+  Create a constructor function named CuboidMaker that accepts properties for length, width, 
+  and height
 */
-class CuboidMaker {
-  constructor(length_, width_, height_){
+function CuboidMaker(length_, width_, height_){
     this.length = Number(length_);
     this.width = Number(width_);
     this.height = Number(height_);
-  }
 }
 
 /* == Step 2: Volume Method ==
