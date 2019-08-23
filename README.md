@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+`.map` returns a new array, mutable by conditions set by the programmer, while `.forEach` simply iterates over the items in an array and checks each item against set conditions with the possibility of creating side effects
+
 2. What is the difference between a function and a method?
+
+A function is an object that takes inputs and returns a value, but a method is a function that belongs to an object
 
 3. What is closure?
 
+In short, closure is the ability of an inner function to access the scope of an outer function
+
 4. Describe the four rules of the 'this' keyword.
+The `this` keyword is applicable in the following cases;
+* When a function is called with the keyword new
+    `let ox = new Object();`
+* When the function is called using `call(), apply(), or bind()`
+* When the function is called as a method `ox.speak()`
+* When the function is in the global scope
 
 5. Why do we need super() in an extended class?
+We need super in an extended class when we have some additional properties that our extending object has but the inherited object does not have
 
 ## Project Set up
 
